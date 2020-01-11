@@ -1,6 +1,5 @@
 # SmartContract_ImagesStoring
-Smart contract in Solidity for storing images.
-The contract will store the image in a map that maps the owner address to an array of struct which stores the content of the images.
+Smart contract in Solidity for storing images. The contract will store the image in a map that maps the owner's address to an array of structs that store the content of the images.
 
 #### function num_of_images(address towner) 
 * return the number of images of the owner
@@ -12,4 +11,4 @@ The contract will store the image in a map that maps the owner address to an arr
  * the return structure will be a list i.e. ['exist', 'image content', 'image_description']
 #### function getImageList(address towner)
  * return the list of the images 
- * the return structure will be a array of list
+ * the return structure will be an array of list
